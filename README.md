@@ -1,6 +1,6 @@
 ## Wheels2Go App Backend
 
-This repository contains the backend server for a Yoga Booking App. The server handles user authentication, booking management, and database operations for the application.
+This repository contains the backend server for a Wheels2Go App. The server handles user authentication, Dealer authenticaton, cars, deals and database operations for the application.
 
 ## Getting Started
 
