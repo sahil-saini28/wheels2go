@@ -8,17 +8,17 @@ To get started with the server, follow these steps:
 
 1. **Clone the repository:**
    
-   `git clone https://github.com/sahil-saini28/Demo-yoga-app.git`
+   `git clone https://github.com/sahil-saini28/wheels2go.git`
 
 2. Install dependencies:
    
-   `cd yoga-booking-app-backend npm install`
+    npm install`
 
 3. Start the server:
    
    `npm start`
    
-   The server will start running on port `4000` by default. You can modify the port in the `index.js` file if needed.
+   The server will start running on port `4000` by default. You can modify the port in the `app.js` file if needed.
 
 ## Database
 
@@ -30,19 +30,12 @@ Example `.env` file:
 
 ## Api Routes
 
-Once the server is running, you can use it to handle API requests from the frontend application. Below are the available endpoints:
-
-- **Signup**: `/api/signup`
-- **Signin**: `/api/signin`
-- **Getting one session**: `/yoga-classes/get-by-id`
-- **Get all yoga classes**: `/yoga-classes`
-- **Search Classes**: `/session-search`
+Once the server is running, you can use it to handle API requests from the frontend application. All routes information availabe in Api documentaion file 
 
 ## Technologies Used
 
 - Node.js
 - Express.js
-- MongoDB
 - bcryptjs
 - jsonwebtoken
 
